@@ -10,4 +10,5 @@ for **railway.app** delete the line `application.yml` in `.gitignore` or delete 
 then set `$PASSWORD`.
 
 here's a fancy railway button!
+
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Fkotx%2Fkoe&envs=PASSWORD&PASSWORDDesc=Password+for+Lavalink)
