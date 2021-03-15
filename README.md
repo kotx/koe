@@ -5,9 +5,7 @@ configure `application.yml.example` and rename it.
 
 then you can probably deploy to **fly.io** but first set the `$PORT` and `$PASSWORD` environment variables
 
-for **railway.app** delete the line `application.yml` in `.gitignore` or delete the file entirely.
-`railway up` will ignore any files in `.gitignore`.
-then set `$PASSWORD`.
+for **railway.app** just set `$PASSWORD`.
 
 here's a fancy railway button!
 
