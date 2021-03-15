@@ -1,4 +1,14 @@
 # koe
+
+## Note
+this repo won't be updated anymore in favor of [Railway starters](https://github.com/railwayapp/starters).
+
+because I use railway instead of fly (for now)
+
+fly config should still work but if you're using railway then use the above repo
+
+---
+
 this is just lavalink
 
 configure `application.yml` if you want.
