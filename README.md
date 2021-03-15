@@ -1,7 +1,7 @@
 # koe
 this is just lavalink
 
-configure `application.yml.example` and rename it.
+configure `application.yml` if you want.
 
 then you can probably deploy to **fly.io** but first set the `$PORT` and `$PASSWORD` environment variables
 
