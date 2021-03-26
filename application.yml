@@ -31,8 +31,8 @@ metrics:
     endpoint: /metrics
 
 sentry:
-  dsn: ""
-  environment: ""
+  dsn: ${SENTRY_DSN}
+  environment: ${SENTRY_ENV}
 #  tags:
 #    some_key: some_value
 #    another_key: another_value
