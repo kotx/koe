@@ -9,7 +9,7 @@ plugins:
 #    another_key: another_value
 lavalink:
   plugins:
-  - dependency: "dev.lavalink.youtube:youtube-plugin:v1.8.3"
+  - dependency: "dev.lavalink.youtube:youtube-plugin:1.8.3"
     snapshot: false # Set to true if you want to use a snapshot version.
 #    - dependency: "com.github.example:example-plugin:1.0.0" # required, the coordinates of your plugin
 #      repository: "https://maven.example.com/releases" # optional, defaults to the Lavalink releases repository by default
