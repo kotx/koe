@@ -8,7 +8,7 @@ plugins:
 lavalink:
   plugins:
     # Replace VERSION with the current version as shown by the Releases tab or a long commit hash for snapshots.
-    - dependency: "dev.lavalink.youtube:youtube-plugin:VERSION"
+    - dependency: "dev.lavalink.youtube:youtube-plugin:1.8.3"
       repository: "https://maven.lavalink.dev/releases" # use https://maven.lavalink.dev/snapshots if you want to use a snapshot version.
   server:
     password: ${PASSWORD}
