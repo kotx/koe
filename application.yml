@@ -2,14 +2,26 @@ server: # REST and WS server
   port: ${PORT}
   address: 0.0.0.0
 plugins:
+  youtube:
+    enabled: true # Whether this source can be used.
+    allowSearch: true # Whether "ytsearch:" and "ytmsearch:" can be used.
+    allowDirectVideoIds: true # Whether just video IDs can match. If false, only complete URLs will be loaded.
+    allowDirectPlaylistIds: true # Whether just playlist IDs can match. If false, only complete URLs will be loaded.
+    # The clients to use for track loading. See below for a list of valid clients.
+    # Clients are queried in the order they are given (so the first client is queried first and so on...)
+    clients:
+      - MUSIC
+      - ANDROID_TESTSUITE
+      - WEB
+      - TVHTML5EMBEDDED
+plugins:
 #  name: # Name of the plugin
 #    some_key: some_value # Some key-value pair for the plugin
 #    another_key: another_value
 lavalink:
   plugins:
-    # Replace VERSION with the current version as shown by the Releases tab or a long commit hash for snapshots.
     - dependency: "dev.lavalink.youtube:youtube-plugin:1.8.3"
-      repository: "https://maven.lavalink.dev/releases" # use https://maven.lavalink.dev/snapshots if you want to use a snapshot version.
+      repository: "https://maven.lavalink.dev/releases"
   server:
     password: ${PASSWORD}
     sources:
